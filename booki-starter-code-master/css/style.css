@@ -53,13 +53,164 @@ body {
     color: var(--main-bg-color)
 }
 
+/****** Header ******/
+
+header {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    height: 79px;
+}
+
+.logo img {
+    width: 61.09px;
+    height: 19px;
+    left: 50px;
+    top: 30px;
+}
+
+nav ul {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    padding: unset;
+}
+
+nav li {
+    padding: 37px 33.5px;
+}
+
+nav li:hover {
+    border-top: solid 2px #0065FC;
+    cursor: pointer;
+    
+}
+
+nav li:hover a {
+    color: #0065FC;
+    width: 113px;
+    height: 2px;
+    left: 0px;
+    top: 0px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a {
+    text-decoration:none;
+    color: black;
+}
+
+/***** Formulaire ******/
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+.Logo-location {
+    background-color:  #F2F2F2; 
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 20px;
+    height: 18px;
+    width: 14px;
+    left: 18px;
+    top: 15px;
+    
+
+}
+
+input {
+    text-align: center;
+    border-color: #f2f2f2;
+   border-right: none;
+    border-left: none;
+    border-width: 0.8px;
+    height: 58px;
+    width: 147px;
+    left: 74px;
+    top: 14px;
+   
+}
+
+
+.button-rechercher {
+    color: white;
+    background-color: #0065FC;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+::placeholder {
+    font-weight: 700;
+    color: black;
+}
+
+/***** Filtres ******/
+
+.Filtres {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    
+}
+
+.Filtres h2 {
+    margin-right: 15px;
+}
+
+.Filtres i {
+    padding-right: 15px;
+}
+.filter-buttons {
+   
+    border-style: solid;
+    border-color: #d9d9d9;
+    font-weight: 700;
+    border-radius: 100px;
+    padding: 20px;
+    justify-content: flex-start;
+    margin: 5px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    border-width: 3px;
+    background-color: white;
+}
+
+.logements-dispo i {
+    width: 18px;
+    height: 18px;
+    border-radius: 56px;
+    border: 1px solid #d9d9d9;
+    padding: 4px;
+    text-align: center;
+    margin-right: 8px;
+
+}
+
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
 }
 
-.hebergements-and-populaires section {
+.hebergements-and-populaires section { 
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
