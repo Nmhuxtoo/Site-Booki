@@ -232,19 +232,14 @@ input {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    
 }
 
 .hebergements-cards .card {
     display: flex;
     flex-wrap: wrap;
-    
     flex-direction: column;
     width: 30%;
     height: 207.25px;
-    
-   
-
 }
 
 .hebergements-cards img {
@@ -252,8 +247,6 @@ input {
     height: 124px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    
-    
 }
 
 .hebergements-cards .card-content {
