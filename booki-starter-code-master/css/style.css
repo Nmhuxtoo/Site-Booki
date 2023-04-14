@@ -86,7 +86,6 @@ nav li {
 nav li:hover {
     border-top: solid 2px #0065FC;
     cursor: pointer;
-    
 }
 
 nav li:hover a {
@@ -112,7 +111,6 @@ a {
 form {
     display: flex;
     margin-bottom: 20px;
-    
 }
 
 .Logo-location {
@@ -125,8 +123,6 @@ form {
     width: 14px;
     left: 18px;
     top: 15px;
-    
-
 }
 
 input {
@@ -139,7 +135,6 @@ input {
     width: 147px;
     left: 74px;
     top: 14px;
-   
 }
 
 
@@ -166,7 +161,6 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: start;
-    
 }
 
 .Filtres h2 {
@@ -177,7 +171,6 @@ input {
     padding-right: 15px;
 }
 .filter-buttons {
-   
     border-style: solid;
     border-color: #d9d9d9;
     font-weight: 700;
@@ -199,7 +192,6 @@ input {
     padding: 4px;
     text-align: center;
     margin-right: 8px;
-
 }
 
 
@@ -274,14 +266,12 @@ input {
     line-height: 16px;
     margin-left: 15px;
     margin-bottom: 8px;
-    
 }
 
 .hebergements-cards .card-rating {
     display: flex;
     margin-left: 15px;
     margin-top: 8px;
-
 }
 
 .hebergements .afficher-plus {
@@ -340,16 +330,9 @@ input {
 
 /***** Activités *****/
 
-.activites-cards  {
-    
-   
-}
-
 .icones-activites  {
     display: flex;
     flex-wrap: wrap;
-    
- 
 }
 
 .icones-activites .card {
@@ -365,7 +348,6 @@ input {
     border-top-left-radius: 20px;
     height: 380px;
     width: 294.5px;
-    
 }
 
 .icones-activites .card-txt {
