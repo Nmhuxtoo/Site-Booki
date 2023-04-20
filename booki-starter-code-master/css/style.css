@@ -106,7 +106,7 @@ a {
     color: black;
 }
 
-/***** Formulaire ******/
+/***** Formulaire ***/
 
 form {
     display: flex;
@@ -119,22 +119,18 @@ form {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     padding: 20px;
-    height: 18px;
-    width: 14px;
+    
     left: 18px;
     top: 15px;
 }
 
 input {
     text-align: center;
-    border-color: #f2f2f2;
+    border: solid #F2F2F2;
    border-right: none;
     border-left: none;
     border-width: 0.8px;
-    height: 58px;
-    width: 147px;
-    left: 74px;
-    top: 14px;
+   
 }
 
 
@@ -149,6 +145,29 @@ input {
     font-weight: 700;
     font-size: 17px;
 }
+
+@media screen and (max-width: 768px) {
+    .button-rechercher .texte {
+    display: none;
+    }
+    
+    .button-rechercher i {
+    display: inline-block;
+    }
+    }
+    
+    @media only screen and (min-width: 769px) {
+    .button-rechercher .texte {
+    display: inline-block;
+    }
+    
+    .button-rechercher i {
+    display: none;
+    }
+    }
+
+    
+
 
 ::placeholder {
     font-weight: 700;
@@ -389,6 +408,7 @@ footer .container {
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
+
 /* Medium devices (tablets, less/equal than 1024px) */
 @media screen and (max-width: 1024px) {
     .hebergements-and-populaires {
@@ -421,9 +441,10 @@ footer .container {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+  
 }
 
 /* Small devices (phones, less than 768px) */
 @media screen and (max-width: 767.98px) {
-    
+    /** Formulaire**/
 }
