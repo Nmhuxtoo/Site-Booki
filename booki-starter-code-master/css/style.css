@@ -330,6 +330,8 @@ input {
 
 /***** Activités *****/
 
+
+
 .icones-activites  {
     display: flex;
     flex-wrap: wrap;
@@ -360,11 +362,35 @@ input {
 }
 
 
+
+/***** Footer ****/
+
+footer .container {
+    background-color: #F2F2F2;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 75%;
+    padding-left: 15px;
+}
+
+
+.footer-col ul li {
+    padding: 10px;
+    padding-left: 0px;
+}
+
+
+
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -398,6 +424,6 @@ input {
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-    /* ... */
+@media screen and (max-width: 767.98px) {
+    
 }
