@@ -235,14 +235,22 @@ input {
     width: 65%;
 }
 
+.hebergements .container {
+    display: flex;
+    width: 100%;
+    gap: 24px;
+    
+ } 
+
+
 .hebergements-title .section-title {
-    padding-bottom: 30px;
+    display: flex;
 }
 
 .hebergements-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    
 }
 
 .hebergements-cards .card {
@@ -250,7 +258,8 @@ input {
     flex-wrap: wrap;
     flex-direction: column;
     width: 30%;
-    height: 207.25px;
+    margin-top: 33px;
+
 }
 
 .hebergements-cards img {
@@ -267,6 +276,8 @@ input {
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
+
+   
 }
 
 .hebergements-cards .card-title {
@@ -276,6 +287,8 @@ input {
     margin-top: 8px;
     margin-bottom: 8px;
     margin-left: 15px;
+
+    
 }
 
 .hebergements-cards .card-subtitle {
@@ -291,6 +304,7 @@ input {
     display: flex;
     margin-left: 15px;
     margin-top: 8px;
+    margin-bottom: 15px;
 }
 
 .hebergements .afficher-plus {
@@ -349,26 +363,45 @@ input {
 
 /***** Activités *****/
 
-
+.titre-activites h2 {
+    margin-left: 30px;
+    margin-top: 65px;
+    margin-bottom: 30px;
+}
 
 .icones-activites  {
+   
+}
+
+.icones-activites .activites-container {
     display: flex;
-    flex-wrap: wrap;
+    width: fill;
+    gap: 30px;
+    margin-left: 30px;
+    margin-bottom: 65px;
+   
+
+    justify-content: flex-end;
+
+    
 }
 
 .icones-activites .card {
-    margin-right: 30px;
+    height: 439px;
+    width: 297.5px;
+    justify-content: flex-end;
     padding-top: 0px;
     padding-right: 0px;
     padding-left: 0px;
+    
+    flex-wrap: wrap;
 }
 
 .icones-activites img {
-    display: flex;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     height: 380px;
-    width: 294.5px;
+    width: 297.5px;
 }
 
 .icones-activites .card-txt {
