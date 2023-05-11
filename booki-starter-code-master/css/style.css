@@ -176,11 +176,7 @@ input {
 
 /***** Filtres ******/
 
-.Filtres {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-}
+
 
 .Filtres h2 {
     margin-right: 15px;
@@ -213,6 +209,17 @@ input {
     margin-right: 8px;
 }
 
+/**** Pour changer la position du texte Filtres selon le format ***/
+
+@media screen and (min-width: 1024px) { 
+    .Filtres {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        
+    }
+  
+}
 
 
 /****** Hebergements And Populaires ***********/
@@ -369,32 +376,27 @@ input {
     margin-bottom: 30px;
 }
 
-.icones-activites  {
-   
-}
 
 .icones-activites .activites-container {
     display: flex;
     width: fill;
     gap: 30px;
-    margin-left: 30px;
+    margin-right: 30px;
     margin-bottom: 65px;
    
 
     justify-content: flex-end;
-
+    
     
 }
 
 .icones-activites .card {
     height: 439px;
-    width: 297.5px;
-    justify-content: flex-end;
     padding-top: 0px;
     padding-right: 0px;
     padding-left: 0px;
     
-    flex-wrap: wrap;
+    
 }
 
 .icones-activites img {
@@ -419,6 +421,7 @@ input {
 
 footer .container {
     background-color: #F2F2F2;
+
 }
 
 .row {
@@ -474,10 +477,12 @@ footer .container {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-  
+    .Filtres i {
+        padding-right: 15px;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
 @media screen and (max-width: 767.98px) {
-    /** Formulaire**/
+    /** header **/
 }
