@@ -37,9 +37,16 @@
                 </div>
                 <div class="Search-bar"> <!-- Formulaire de recherche-->
                     <form action="" method="">
-                        <span class="Logo-location"><i class="fa-solid fa-location-dot" style="color: #000000;"></i></span>
-                        <input type="search" name="Location" placeholder="Marseille, France">
-                        <button class="button-rechercher"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i><span class="texte">Rechercher</span></button>
+                        <label for="ville">
+                            <i class="fa-solid fa-location-dot fa-lg" aria-hidden="true" style="color: #000000";></i>
+                          </label>
+                        <input type="search" name="ville" id="Ville" placeholder="Marseille, France">
+                        <button type="submit">
+                            <div class="rechercher">Rechercher</div>
+                            <div class="loupe">
+                              <i class="fa-solid fa-magnifying-glass" style="color: #ffffff"> </i>
+                            </div>
+                          </button>
                     </form>
                 </div>    
                     <div class="Filtres"> <!-- Filtres -->
@@ -69,7 +76,7 @@
                                 <div class="card-rating">
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hiSdden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star neutralStar" aria-hidden="true"></i>
                                         <span class="sr-only">Note de 4 sur 5</span>
@@ -217,77 +224,95 @@
                             </div>
                         </article>
                     </div>
-
                 </section>
             </div>
-            <section class="Activites-Marseille"> <!-- Activités à Marseille -->
-                <div class="titre-activites">
-                    <h2>Activités à Marseille</h2>
-                </div>
-                <div class="activites-cards">
-                    <div class="icones-activites">
-                        <div class="activites-container">
-                            <article class="card">
-                                <img src="./images/activites/reno-laithienne.jpg" alt="Photo Vieux-Port">
-                                <div class="card-txt">
-                                    <h3>Vieux-Port</h3>
-                                </div>
-                            </article>
-                            <article class="card">
-                                <img src="./images/activites/paul-hermann.jpg" alt="Photo Vieux-Port">
-                                <div class="card-txt">
-                                    <h3>Fort de Pomègues</h3>
-                                </div>
-                            </article>
-                            <article class="card">
-                                <img src="./images/activites/kilyan-sockalingum.jpg" alt="Photo Vieux-Port">
-                                <div class="card-txt">
-                                    <h3>Parc national des Calanques</h3>
-                                </div>
-                            </article>
-                            <article class="card">
-                                <img src="./images/activites/florian-wehde.jpg" alt="Photo Vieux-Port">
-                                <div class="card-txt">
-                                    <h3>Notre-Dame-de-la-Garde</h3>
-                                </div>
-                            </article>
+            <div class="activites-main"> <!-- Activités Marseille -->
+                <section class="activites">
+                  <div class="activites-title">
+                    <h2 class="section-title" id="ancre_activites">Activités à Marseille</h2>
+                  </div>
+                  <div class="activites-cards">
+                    <article class="card">
+                      <a href="#" class="card-lien">
+                        <img
+                          src="./images/activites/reno-laithienne.jpg"
+                          alt="Image du port avec bateaux"
+                        />
+                        <div class="card-content">
+                            <h3 class="card-title">Vieux-Port</h3>
                         </div>
-                    </div>
-                </div>
-            </section>
-        </main>
+                      </a>
+                    </article>
+                    <article class="card">
+                      <a href="#" class="card-lien">
+                        <img
+                          src="./images/activites/paul-hermann.jpg"
+                          alt="Image du Fort de pomègues"
+                        />
+                        <div class="card-content">
+                            <h3 class="card-title">Fort de Pomègues</h3>
+                        </div>
+                      </a>
+                    </article>
+                    <article class="card">
+                      <a href="#" class="card-lien">
+                        <img
+                          src="./images/activites/kilyan-sockalingum.jpg"
+                          alt="Image du parc national des Calanques"
+                        />
+                        <div class="card-content">
+                            <h3 class="card-title">Parc national des Calanques</h3>
+                        </div>
+                      </a>
+                    </article>
+                    <article class="card">
+                      <a href="#" class="card-lien">
+                        <img
+                          src="./images/activites/florian-wehde.jpg"
+                          alt="Image de Notre-Dame-de-la-Garde"
+                        />
+                        <div class="card-content">
+                            <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+                        </div>
+                      </a>
+                    </article>
+                  </div>
+                </section>
+              </div>
+            </main>
         <footer> <!-- Footer-->
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col">
-                        <h4>À propos</h4>
-                        <ul>
-                            <li><a href="">Fonctionnement du site</a></li>
-                            <li><a href="">Conditions générales</a></li>
-                            <li><a href="">Données et confidentialité</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- 2nd column -->
-                    <div class="footer-col">
-                        <h4>Nos hébergements</h4>
-                        <ul>
-                            <li><a href="">Charte qualité</a></li>
-                            <li><a href="">Proposer votre hôtel</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- 3rd column -->
-                    <div class="footer-col">
-                        <h4>Assistance</h4>
-                        <ul>
-                            <li><a href="">Centre d'aide</a></li>
-                            <li><a href="">Nous contacter</a></li>
-                        </ul>
+          <div class="colonne">
+          <div class="colonne-title">
+            <h3>A propos</h3>
+          </div>
+          <ul class="colonne-text">
+            <li>Fonctionnement du site</li>
+            <li>Conditions générales</li>
+            <li>Données et confidentialité</li>
+          </ul>
+        </div>
+        <div class="colonne">
+          <div class="colonne-title">
+            <h3>Nos Hébergements</h3>
+          </div>
+          <ul class="colonne-text">
+            <li>Charte qualité</li>
+            <li>Proposer votre hôtel</li>
+          </ul>
+        </div>
+        <div class="colonne">
+          <div class="colonne-title">
+            <h3>Assistance</h3>
+          </div>
+          <ul class="colonne-text">
+            <li>Centre d'aide</li>
+            <li>Nous contacter</li>
+          </ul>
                     </div>
                 </div>
             </div>
         </footer>
+    </div>
 </body>
 
 </html>
