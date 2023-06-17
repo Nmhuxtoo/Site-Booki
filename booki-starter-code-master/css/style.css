@@ -297,6 +297,7 @@ button.filter-buttons:hover {
     gap: 10px;
     width: 100%;
 
+    
   }
   
  
@@ -345,10 +346,33 @@ button.filter-buttons:hover {
   .info-bar {
     margin-bottom: 37.5px;
     padding-top: 0px;
+
   }
   
 }
 
+@media screen and (max-width: 1024px) {
+    .info-bar {
+        margin-bottom: 35px;
+        margin-top: 37.5px; 
+    }
+    
+    .info-bar p {
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
+}
+
+@media screen and (max-width: 767.98px) {
+    .info-bar p {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .info-bar {
+        margin-bottom: 0px;
+        margin-top: 0px; 
+    }
+}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
