@@ -92,7 +92,6 @@ ul {
 
 
 nav li:hover {
-    
     cursor: pointer;
 }
 
@@ -106,7 +105,6 @@ nav li:hover a {
 
 .menu a {
     text-decoration: none;
-    
 }
 
 a {
@@ -123,7 +121,6 @@ a {
     nav li {
         padding: 37px 33.5px;  
       }
-    
 }
 
 
@@ -186,7 +183,6 @@ a {
     line-height: 21px;
     color: #ffffff;
     border: none;
-    
   }
 
   
@@ -224,7 +220,6 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  
 }
 
 .filtres-texte {
@@ -232,8 +227,6 @@ a {
   flex-direction: row;
   justify-content: flex-start;
   gap: 15px;
-  
-  
 }
 
 .eco-fam,
@@ -241,7 +234,6 @@ a {
   display: flex;
   flex-direction: row;
   gap: 15px;
- 
 }
 
 .eco,
@@ -255,9 +247,8 @@ a {
   align-items: center;
   border: solid 2px #d9d9d9;
   border-radius: 25px;
-  padding: 0px 19px 0px 19px
-  
- 
+  padding: 0px 19px 0px 19px;
+  white-space: nowrap;
 }
 
 .eco:hover,
@@ -273,7 +264,6 @@ a {
   font-size: 17px;
   font-weight: 700;
   line-height: 20px;
-  
 }
 
 
@@ -293,11 +283,8 @@ button.filter-buttons:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
     gap: 10px;
     width: 100%;
-
-    
   }
   
  
@@ -310,7 +297,6 @@ button.filter-buttons:hover {
     width: 24px;
     border: solid 1px #d9d9d9;
     border-radius: 12px;
-    
   }
 
  
@@ -329,15 +315,15 @@ button.filter-buttons:hover {
         margin-bottom: 37.5px;
         margin-top: 35px;
       }
-      .eco,
+
+    .eco,
     .fam,
     .rom,
     .pep {
- 
   height: 50px;
   margin-top: 35px;
- 
 }
+
 .info-bar p {
     margin-bottom: 0px;
     margin-top: 0px;
@@ -346,7 +332,6 @@ button.filter-buttons:hover {
   .info-bar {
     margin-bottom: 37.5px;
     padding-top: 0px;
-
   }
   
 }
