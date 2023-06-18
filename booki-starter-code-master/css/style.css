@@ -70,7 +70,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .logo img {
@@ -88,8 +87,6 @@ ul {
     list-style-type: none;
     padding: unset;
 }
-
-
 
 nav li:hover {
     cursor: pointer;
@@ -112,39 +109,24 @@ a {
     color: black;
 }
 
-/** pour change la bordure selon le format **/
-
-@media screen and (min-width: 767.98px) {
-    nav li:hover {
-    border-top: solid 2px #0065FC;    
-    }
-    nav li {
-        padding: 37px 33.5px;  
-      }
-}
-
-
-
-
 /***** Formulaire & titre ***/
 
 .headline h1 {
     margin: 8px 0px 0px 0px;
     font-size: 22px;
-    
 }
 
 .recherche {
     height: 49px;
     width: 377px;
-  }
+}
   
-  form {
+form {
     display: inline-flex;
     flex-direction: row;
-  }
+}
   
-  label {
+label {
     width: 50px;
     background: #f2f2f2;
     border: 1px solid #f2f2f2;
@@ -152,9 +134,9 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   
-  form input {
+form input {
     width: 195px;
     padding: 0px 24px 0px 24px;
     font-family: "Raleway", sans-serif;
@@ -167,9 +149,9 @@ a {
     border-bottom: 1px solid #f2f2f2;
     border-left: none;
     border-right: none;
-  }
+}
   
-  form button {
+form button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -183,21 +165,20 @@ a {
     line-height: 21px;
     color: #ffffff;
     border: none;
-  }
+}
 
-  
-  .rechercher {
+.rechercher {
     display: block;
-  }
+}
 
-  .loupe {
+.loupe {
     display: none;
-  }
+}
 
-  ::placeholder {
+::placeholder {
     font-size: 16px;
     color: #000000;
-  }
+}
 
 /***** Filtres ******/
 
@@ -206,14 +187,12 @@ a {
     margin-top: 8px;
 }   
 
-
 .filtres {
   display: flex;
   flex-direction: row;
   gap: 15px;
   align-items: center;
   height: 50px;
-  
 }
 
 .filtre-title {
@@ -258,15 +237,12 @@ a {
   background-color: #deebff;
 }
 
-
 .filtres h4 {
   margin: 0px;
   font-size: 17px;
   font-weight: 700;
   line-height: 20px;
 }
-
-
 
 button.filter-buttons:hover {
     background-color: #DEEBFF;
@@ -277,19 +253,15 @@ button.filter-buttons:hover {
     font-size: 17px;
 }
 
-
-
 .info-bar {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10px;
     width: 100%;
-  }
+}
   
- 
-
-  .i {
+.i {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -297,69 +269,10 @@ button.filter-buttons:hover {
     width: 24px;
     border: solid 1px #d9d9d9;
     border-radius: 12px;
-  }
-
- 
-
-/**** Pour changer la position du texte Filtres selon le format ***/
-
-@media screen and (min-width: 1024px) { 
-    .Filtres {
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-    }
-    .filtre-title {
-        margin-top: 35px;
-        margin-right: 15px;
-        margin-bottom: 37.5px;
-        margin-top: 35px;
-      }
-
-    .eco,
-    .fam,
-    .rom,
-    .pep {
-  height: 50px;
-  margin-top: 35px;
-}
-
-.info-bar p {
-    margin-bottom: 0px;
-    margin-top: 0px;
-  }
-
-  .info-bar {
-    margin-bottom: 37.5px;
-    padding-top: 0px;
-  }
-  
-}
-
-@media screen and (max-width: 1024px) {
-    .info-bar {
-        margin-bottom: 35px;
-        margin-top: 37.5px; 
-    }
-    
-    .info-bar p {
-        margin-bottom: 0px;
-        margin-top: 0px;
-      }
-}
-
-@media screen and (max-width: 767.98px) {
-    .info-bar p {
-        margin-top: 35px;
-        margin-bottom: 35px;
-    }
-    .info-bar {
-        margin-bottom: 0px;
-        margin-top: 0px; 
-    }
 }
 
 /****** Hebergements And Populaires ***********/
+
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -372,9 +285,8 @@ button.filter-buttons:hover {
     box-sizing: border-box;
 }
 
-
-
 /****** Hebergements ***********/
+
 .hebergements {
     width: 65%;
 }
@@ -447,16 +359,6 @@ button.filter-buttons:hover {
     margin-top: 30px;
 }
 
-/** espacement hebergement tablette et mobile **/
-
-@media screen and (min-width: 768.98px) { 
-    .hebergements .container {
-        display: flex;
-        width: 100%;
-        gap: 24px;
-     } 
-}
-
 /****** Populaires ***********/
 
 .populaires {
@@ -508,53 +410,53 @@ button.filter-buttons:hover {
 
 .activites {
     width: 100%;
-  }
+}
   
-  .activites-main section {
+.activites-main section {
     background-color: #ffffff;
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
-  }
+}
   
-  .activites-title {
+.activites-title {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-  }
+}
   
-  .activites-cards {
+.activites-cards {
     display: flex;
     flex-direction: row;
     gap: 30px;
-  }
+}
   
-  .activites-cards .card {
+.activites-cards .card {
     margin-top: 30px;
     width: 25%;
     padding: 0;
-  }
+}
   
-  .activites-cards img {
+.activites-cards img {
     width: 100%;
     height: 380px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-  }
+}
   
-  .activites-cards .card-content {
+.activites-cards .card-content {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     margin: 20px 19px 20px 19px;
-  }
+}
   
-  .activites-cards .card-lien {
+.activites-cards .card-lien {
     text-decoration: none;
     color: #000000;
     display: flex;
     flex-direction: column;
-  }
+}
 
 
 /***** Footer ****/
@@ -565,24 +467,24 @@ footer {
     align-items: flex-start;
     height: 193px;
     background-color: #f2f2f2;
-  }
+}
   
-  .colonne {
+.colonne {
     width: 33.3%;
     padding-left: 10px;
-  }
+}
   
-  .colonne-text {
+.colonne-text {
     padding: 15px 0px 0px 0px;
     margin: 0px;
     display: flex;
     flex-direction: column;
     gap: 15px;
-  }
+}
   
-  footer li {
+footer li {
     list-style: none;
-  }
+}
   
 footer h3 {
     margin-bottom: 0px;
@@ -632,7 +534,6 @@ footer h3 {
     
     header {
         margin: 0px -30px;
-
     }
    
     /** filtres **/
@@ -642,7 +543,18 @@ footer h3 {
     .pep {
       padding: 13px 17px;
     }
+
+    /** position de la barre d'info **/
+
+    .info-bar {
+        margin-bottom: 35px;
+        margin-top: 37.5px; 
+    }
     
+    .info-bar p {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
@@ -655,14 +567,12 @@ footer h3 {
         padding: 0px;
       }
 
-
     /** header **/
     header {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-bottom: 35px;
-
       }
     
       header nav {
@@ -677,7 +587,6 @@ footer h3 {
         list-style: none;
         padding: 0px;
         margin: 0px;
-        
       }
     
       header li {
@@ -709,15 +618,10 @@ footer h3 {
         margin-top: 30px;
       }
 
-
-
-
     /** formulaire de recherche et titre **/
-      
+
     .headline h1 {
         margin-top: 70px;
-        
-        
     }
     
     .headline p {
@@ -727,38 +631,38 @@ footer h3 {
     .Filtres h3 {
         margin-top: 35px;
     }
-
-
+    
     .formulaire-et-filtre {
         padding: 0px 20px 0px 20px;
         width: auto;
-      }
+    }
 
-      .recherche {
+    .recherche {
         width: 335px;
-      }
+    }
     
-      .search-bar {
+    .search-bar {
         width: 335px;
-      }
-      form input {
+    }
+      
+    form input {
         width: 249px;
-      }
+    }
     
-      form button {
+    form button {
         width: 49px;
         border-radius: 15px;
         padding: 0px 0px 0px 0px;
         margin-left: -13px;
-      }
+    }
     
-      .rechercher {
+    .rechercher {
         display: none;
-      }
+    }
     
-      .loupe {
+    .loupe {
         display: block;
-      }
+    }
 
     /** filtres **/
     
@@ -769,117 +673,111 @@ footer h3 {
         gap: 20px;
         height: 161px;
         width: 335px;
-      }
+    }
     
-      .filtres-texte {
+    .filtres-texte {
         flex-direction: column;
         gap: 20px;
-      }
+    }
     
-      .eco-fam,
-      .rom-pep {
+    .eco-fam,
+    .rom-pep {
         gap: 10px;
         width: 335px;
-      }
+    }
     
-      .eco,
-      .fam,
-      .rom,
-      .pep {
+    .eco,
+    .fam,
+    .rom,
+    .pep {
         padding-top: 15px;
         padding-bottom: 15px;
-      }
+    }
     
-      .eco {
+    .eco {
         padding-right: 24.5px;
-      }
+    }
     
-      .fam {
+    .fam {
         padding-left: 21px;
         padding-right: 56.5px;
         gap: 14.56px;
-      }
+    }
     
-      .rom {
+    .rom {
         padding-right: 27.5px;
-      }
+    }
     
-      .pep {
+    .pep {
         padding-left: 19.5px;
         padding-right: 29px;
         gap: 11.5px;
-      }
+    }
     
-      .filtres-texte h4 {
+    .filtres-texte h4 {
         font-size: 14px;
         font-weight: 700;
         line-height: 16px;
-      }
+    }
 
-      .info-bar {
+    .info-bar {
         margin-bottom: 5px;
         margin-top: 5px;
-      }
+    }
     
-
-
- 
-   
-
     /** hébergements et populaires  **/
     .hebergements-and-populaires {
         display: flex;
         flex-direction: column-reverse;
         gap: 15px;
-      }
+    }
     
-      .hebergements-and-populaires section {
+    .hebergements-and-populaires section {
         border-radius: 0px;
-      }
+    }
 
     /** Populaires **/
     section.populaires {
         margin: 0px;
-      }
+    }
     
-      .populaires-cards {
+    .populaires-cards {
         flex-direction: column;
         justify-content: space-between;
-      }
+    }
     
-      .populaires-cards .card {
+    .populaires-cards .card {
         width: auto;
         margin-top: 15px;
-      }
+    }
     
     /** Hébergements **/
 
     section.hebergements {
-    padding-top: 20px;
-    background-color: white;
-  }
+        padding-top: 20px;
+        background-color: white;
+    }
 
-  .container {
-    flex-direction: column;
-    gap: 0px;
-  }
+    .container {
+        flex-direction: column;
+        gap: 0px;
+    }
 
-  .container .card {
-    margin-top: 15px;
-    width: auto;
-  }
+    .container .card {
+        margin-top: 15px;
+        width: auto;
+    }
 
-  .hebergements-afficher {
-    margin-top: 15px;
-  }
-
+    .hebergements-afficher {
+        margin-top: 15px;
+    }
 
     /** Activités **/
 
-       .activites-cards {
-     flex-direction: column;
-     gap: 0px;
-   }
+    .activites-cards {
+        flex-direction: column;
+        gap: 0px;
+    }
 
     .activites-cards .card {
       margin-top: 15px;
@@ -896,22 +794,91 @@ footer h3 {
       gap: 30px;
     }
 
-
-      
     /** Footer **/
+
     footer {
         flex-direction: column;
         height: 461px;
         gap: 20px;
-      }
+    }
     
-      .colonne {
+    .colonne {
         width: auto;
         padding: 30px 30px 0px 30px;
-      }
-      footer h3 {
+    }
+
+    footer h3 {
         margin-top: 0px;
-      }
+    }
+
+    /** position de la barre info **/
+
+    .info-bar p {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .info-bar {
+        margin-bottom: 0px;
+        margin-top: 0px; 
+    }
 
     
 } 
+
+/**** Pour changer la position du texte Filtres pour le format Desktop ***/
+
+@media screen and (min-width: 1024px) { 
+    .Filtres {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+
+    .filtre-title {
+        margin-top: 35px;
+        margin-right: 15px;
+        margin-bottom: 37.5px;
+        margin-top: 35px;
+    }
+
+    .eco,
+    .fam,
+    .rom,
+    .pep {
+        height: 50px;
+        margin-top: 35px;
+    }
+
+    .info-bar p {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .info-bar {
+        margin-bottom: 37.5px;
+        padding-top: 0px;
+    }
+}
+
+/** pour change la bordure Pour les formats supérieur au mobiles **/
+
+@media screen and (min-width: 767.98px) {
+
+    nav li:hover {
+        border-top: solid 2px #0065FC;    
+    }
+
+    nav li {
+        padding: 37px 33.5px;  
+    }
+    
+    /** espacement hebergement tablette et mobile **/
+
+    .hebergements .container {
+        display: flex;
+        width: 100%;
+        gap: 24px;
+    } 
+}
+
