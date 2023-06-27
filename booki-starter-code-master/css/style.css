@@ -94,7 +94,6 @@ nav li:hover {
 
 nav li:hover a {
     color: #0065FC;
-    width: fill;
     height: 2px;
     left: 0px;
     top: 0px;
@@ -178,6 +177,10 @@ form button {
 ::placeholder {
     font-size: 16px;
     color: #000000;
+}
+
+.fa-magnifying-glass {
+    color: #ffffff;
 }
 
 /***** Filtres ******/
